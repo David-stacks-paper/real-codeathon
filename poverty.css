@@ -1,0 +1,112 @@
+header {
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 8px solid #333;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf7ef;
+    color: #333;
+  }
+  
+  
+    .navbar{
+        display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333333;
+   
+    }
+   
+  .navbar li {
+    flex: 1;
+  }
+  .navbar li a {
+    display: block;
+    padding: 14px;
+    text-align: center;
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  
+    .navbar li a:hover {
+    background-color: #575757;
+  }
+  .whole {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  
+  
+  
+    .content{
+    background-color: bisque;
+    padding: 20px;
+    border: 1px solid #e0d4c3;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 260px;
+    max-width: 400px;
+    }
+    .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Main {
+    max-width: 600px;
+  }
+  .Whole-help {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .help-content {
+    background-color: bisque;
+    padding: 20px;
+    border: 1px solid #e0d4c3;
+    border-radius: 6px;
+    margin-bottom: 25px;
+  }
+  .target img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 8px solid #333;
+  }
+
+  .app iframe{
+    height: 600px;
+    width: 500px;
+}
+
+  
+  
+   
+   
+    footer{
+   
+    background-color: beige;
+    padding: 5px;
+    text-align: center;
+    border-top: #333333 10px solid;
+   
+   
+    }
+  
+  
+  
